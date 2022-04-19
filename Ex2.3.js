@@ -7,3 +7,14 @@
 // findNextSquare(121) --> returns 144
 // findNextSquare(625) --> returns 676
 // findNextSquare(114) --> returns -1 since 114 is not a perfec
+
+const perfectSquare = function(num) {
+  let sqrt = Math.sqrt(num);
+  if (Number.isInteger(sqrt)) {
+     return (sqrt+1) * (sqrt+1);
+  } else {
+    return -1
+  }
+}
+
+console.log(perfectSquare(25));

@@ -7,6 +7,7 @@
 // basicOp('-', 15, 18) // Output: -3
 // basicOp('*', 5, 5) // Output: 25
 // basicOp('/', 49, 7) // Output: 7
+// Test change
 
 let basicOp = function(op, value1, value2) {
 
@@ -23,6 +24,6 @@ if (op === '+') {
     return value1 / value2
 }
 }
-// basicOp('*', 5, 5);
+basicOp('/', 49, 7);
 
-// console.log(basicOp('*', 5, 5)); 
+console.log(basicOp('/', 49, 7)); 
